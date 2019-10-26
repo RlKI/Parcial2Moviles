@@ -4,4 +4,161 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_hab5"
+        android:layout_width="196dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="20dp"
+        android:text="KITCHEN"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/kitch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_hab4" />
+
+    <ImageView
+        android:id="@+id/kitch"
+        android:layout_width="83dp"
+        android:layout_height="61dp"
+        app:srcCompat="@drawable/off"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="633dp" />
+
+    <TextView
+        android:id="@+id/tv_hab4"
+        android:layout_width="219dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="20dp"
+        android:text=" BATHROOM"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_hab5"
+        app:layout_constraintEnd_toStartOf="@+id/bath"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_hab3" />
+
+    <ImageView
+        android:id="@+id/bath"
+        android:layout_width="83dp"
+        android:layout_height="61dp"
+        app:srcCompat="@drawable/off"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="513dp" />
+
+    <TextView
+        android:id="@+id/tv_hab3"
+        android:layout_width="196dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="20dp"
+        android:text="ROOM 4"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_hab4"
+        app:layout_constraintEnd_toStartOf="@+id/hab4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_hab2" />
+
+    <ImageView
+        android:id="@+id/hab4"
+        android:layout_width="83dp"
+        android:layout_height="61dp"
+        app:srcCompat="@drawable/off"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <TextView
+        android:id="@+id/tv_hab2"
+        android:layout_width="196dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="20dp"
+        android:text="ROOM 3"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_hab3"
+        app:layout_constraintEnd_toStartOf="@+id/hab3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_hab" />
+
+    <ImageView
+        android:id="@+id/hab3"
+        android:layout_width="83dp"
+        android:layout_height="61dp"
+        app:srcCompat="@drawable/off"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <TextView
+        android:id="@+id/tv_hab"
+        android:layout_width="196dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="20dp"
+        android:text="ROOM 2"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_hab2"
+        app:layout_constraintEnd_toStartOf="@+id/hab2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_hab1" />
+
+    <ImageView
+        android:id="@+id/hab2"
+        android:layout_width="83dp"
+        android:layout_height="61dp"
+        app:srcCompat="@drawable/off"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <ImageView
+        android:id="@+id/hab1"
+        android:layout_width="83dp"
+        android:layout_height="61dp"
+        app:srcCompat="@drawable/off"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <TextView
+        android:id="@+id/tv_hab1"
+        android:layout_width="196dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="20dp"
+        android:text="ROOM 1"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_hab"
+        app:layout_constraintEnd_toStartOf="@+id/hab1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
