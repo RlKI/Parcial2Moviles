@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity {
         arreglo.add(new Luz("luzCocina", true));
         arreglo.add(new Luz("luzHabitacion1", true));
         arreglo.add(new Luz("luzHabitacion2", true));
-        arreglo.add(new Luz("luzHabitacion3", true));
-        arreglo.add(new Luz("luzHabitacion4", true));
+        arreglo.add(new Luz("luzHabitacion3", false));
+        arreglo.add(new Luz("luzHabitacion4", false));
 
         setImage(arreglo.get(0),bath);
         setImage(arreglo.get(1),kitch);
