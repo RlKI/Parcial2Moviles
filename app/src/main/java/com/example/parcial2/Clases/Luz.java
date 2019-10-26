@@ -11,9 +11,9 @@ public class Luz {
     public String locacion;
     public boolean estado;
 
-    public Luz(String locacion, boolean estado){
-        locacion = locacion;
-        estado = estado;
+    public Luz(String olocacion, boolean oestado){
+        locacion = olocacion;
+        estado = oestado;
     }
 
     public List<Luz> crearListaFromJSON(JSONObject jsonObject) throws JSONException {
